@@ -1,0 +1,10 @@
+test_01_row_and_merchant_scale (test_payment_pipeline.TestPaymentPipelineAndStatisticalModels.test_01_row_and_merchant_scale) ... ok
+test_02_all_data_quality_assertions_pass (test_payment_pipeline.TestPaymentPipelineAndStatisticalModels.test_02_all_data_quality_assertions_pass) ... ok
+test_03_wilson_confidence_interval_bounds (test_payment_pipeline.TestPaymentPipelineAndStatisticalModels.test_03_wilson_confidence_interval_bounds) ... ok
+test_04_adaptive_retry_lift_statistical_significance (test_payment_pipeline.TestPaymentPipelineAndStatisticalModels.test_04_adaptive_retry_lift_statistical_significance) ... ok
+test_05_qbr_scorecard_completeness (test_payment_pipeline.TestPaymentPipelineAndStatisticalModels.test_05_qbr_scorecard_completeness) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.474s
+
+OK

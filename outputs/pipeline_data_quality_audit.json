@@ -1,0 +1,22 @@
+{
+  "ingestion": {
+    "total_payment_rows": 103886,
+    "unique_orders": 99441,
+    "active_merchants": 3095
+  },
+  "data_quality_audit": {
+    "total_checks_executed": 8,
+    "checks_passed": 8,
+    "pass_rate_pct": 100.0,
+    "assertions": {
+      "row_count_parity": true,
+      "zero_null_primary_keys": true,
+      "zero_duplicate_order_sequence": true,
+      "positive_payment_values": true,
+      "net_settlement_accounting_identity": true,
+      "declined_zero_net_settlement": true,
+      "merchant_foreign_key_integrity": true,
+      "valid_installment_bounds": true
+    }
+  }
+}

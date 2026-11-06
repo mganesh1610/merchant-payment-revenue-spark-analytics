@@ -1,0 +1,41 @@
+{
+  "overall_platform_metrics": {
+    "total_transactions_processed": 103886,
+    "gross_payment_volume_usd": 30699343.05,
+    "net_settled_revenue_usd": 27995524.01,
+    "overall_authorization_rate_pct": 93.99
+  },
+  "soft_decline_retry_experiment": {
+    "control_static_retry": {
+      "soft_declined_txns": 4576,
+      "recovered_txns": 1248,
+      "recovery_rate_pct": 27.27,
+      "wilson_95_ci_pct": [
+        26.0,
+        28.58
+      ],
+      "recovered_net_revenue_usd": 356721.77
+    },
+    "treatment_adaptive_retry": {
+      "soft_declined_txns": 4575,
+      "recovered_txns": 1663,
+      "recovery_rate_pct": 36.35,
+      "wilson_95_ci_pct": [
+        34.97,
+        37.75
+      ],
+      "recovered_net_revenue_usd": 474426.88
+    },
+    "statistical_inference": {
+      "control_rate": 0.272727,
+      "treatment_rate": 0.363497,
+      "absolute_lift_pp": 9.077,
+      "relative_lift_pct": 33.2823,
+      "z_stat": 9.3218,
+      "p_value": 1.143375e-20,
+      "ci_95_low_pp": 7.1776,
+      "ci_95_high_pp": 10.9764
+    },
+    "incremental_recovered_net_revenue_usd": 117705.11
+  }
+}
