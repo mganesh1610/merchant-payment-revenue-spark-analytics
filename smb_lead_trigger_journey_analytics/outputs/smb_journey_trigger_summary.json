@@ -1,0 +1,42 @@
+{
+  "total_merchants_evaluated": 3095,
+  "total_payment_transactions_reconciled": 103886,
+  "treatment_merchants": 1548,
+  "control_merchants": 1547,
+  "treatment_activated_merchants": 434,
+  "control_activated_merchants": 247,
+  "treatment_activation_rate_pct": 28.04,
+  "control_activation_rate_pct": 15.97,
+  "treatment_wilson_95_ci_pct": [
+    25.86,
+    30.33
+  ],
+  "control_wilson_95_ci_pct": [
+    14.23,
+    17.88
+  ],
+  "trigger_experiment_z_test": {
+    "control_rate": 0.159664,
+    "treatment_rate": 0.280362,
+    "absolute_lift_pp": 12.0698,
+    "relative_lift_pct": 75.595,
+    "z_stat": 8.1044,
+    "p_value": 5.302607e-16,
+    "ci_95_low_pp": 9.1821,
+    "ci_95_high_pp": 14.9574
+  },
+  "governance_checks_passed": 10,
+  "governance_checks_total": 10,
+  "governance_assertions": {
+    "check_01_merchant_count_3095": true,
+    "check_02_txn_conservation_103886": true,
+    "check_03_zero_null_merchant_ids": true,
+    "check_04_positive_gpv_all_merchants": true,
+    "check_05_three_trigger_capabilities": true,
+    "check_06_four_merchant_segments": true,
+    "check_07_risk_controls_100pct": true,
+    "check_08_audit_trail_100pct": true,
+    "check_09_positive_activation_lift": true,
+    "check_10_statistically_significant_z": true
+  }
+}
