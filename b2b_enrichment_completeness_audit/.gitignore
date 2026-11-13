@@ -1,0 +1,5 @@
+.cache_raw/
+*.sqlite
+*.db
+__pycache__/
+*.pyc

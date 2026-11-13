@@ -1,0 +1,24 @@
+{
+  "generated_at_utc": "2026-11-13T19:56:23.789874+00:00",
+  "orders_total": 99441,
+  "order_items_total": 112650,
+  "payment_rows_total": 103886,
+  "merchants_total": 3095,
+  "products_total": 32951,
+  "foreign_key_violations": 0,
+  "total_settled_payments": 16008872.12,
+  "ledger_variance_usd": 0.0,
+  "overall_catalog_enrichment_pct": 98.58,
+  "missing_category_line_items": 1603,
+  "states_profiled": 23,
+  "states_with_enrichment_gaps": 10,
+  "orders_missing_items": 775,
+  "orders_missing_payments": 1,
+  "sha256_digests": {
+    "olist_orders_dataset.csv": "8df58ef3d2d7e9944010f7beecd9b75367f5588ec6e3c91cec19ae3345ef9ecf",
+    "olist_order_items_dataset.csv": "4f6abdbbc94036d0df4a76fa0520c072e31a40119d70f7f370fba1e2285d2bcb",
+    "olist_order_payments_dataset.csv": "61674868ed7b872aac3dcd95bf774448a88f6426b183f21be55f75af021ffdec",
+    "olist_sellers_dataset.csv": "31eb9bd50d684526a78f2389413ce61841e97692de7b828fe7d956b534586312",
+    "olist_products_dataset.csv": "3e6569628a17fbc75fd206ee357b59e20364b9afa90f5b6cd5b4d624c58aa9cc"
+  }
+}
